@@ -93,6 +93,26 @@ input:checked {
   background: #8B5CF6;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: #A1A1AA;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #18181B;
+}
+
 @media (max-width: 570px) {
   button div {
     display: none;
